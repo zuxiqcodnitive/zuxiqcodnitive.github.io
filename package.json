@@ -1,7 +1,7 @@
 {
   "name": "zuxiqcodnitive",
   "version": "0.1.0",
-  "homepage": "https://zuxiqcodnitive.github.io/zuxiqcodnitive",
+  "homepage": "https://zuxiqcodnitive.github.io/",
   "private": false,
   "dependencies": {
     "disqus-react": "^1.1.1",
