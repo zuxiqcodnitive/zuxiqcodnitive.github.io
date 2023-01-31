@@ -1,7 +1,7 @@
 {
   "name": "zuxiqcodnitive",
   "version": "0.1.0",
-  "homepage": "https://zuxiqcodnitive.github.io",
+  "homepage": "https://zuxiqcodnitive.github.io/zuxiqcodnitive.github.io",
   "private": false,
   "dependencies": {
     "disqus-react": "^1.1.1",
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
