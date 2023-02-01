@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://zuxiqcodnitive.github.io/static/css/main.3acec7db.css",
-    "main.js": "https://zuxiqcodnitive.github.io/static/js/main.a2242efa.js",
+    "main.js": "https://zuxiqcodnitive.github.io/static/js/main.8c49beb7.js",
     "static/media/icofont.woff": "https://zuxiqcodnitive.github.io/static/media/icofont.dad3accba068281878f1.woff",
     "static/media/icofont.woff2": "https://zuxiqcodnitive.github.io/static/media/icofont.9c33516aab48c61e3081.woff2",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "https://zuxiqcodnitive.github.io/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -32,10 +32,10 @@
     "static/media/Metropolis-Thin.woff": "https://zuxiqcodnitive.github.io/static/media/Metropolis-Thin.f31ca844537be9530d10.woff",
     "index.html": "https://zuxiqcodnitive.github.io/index.html",
     "main.3acec7db.css.map": "https://zuxiqcodnitive.github.io/static/css/main.3acec7db.css.map",
-    "main.a2242efa.js.map": "https://zuxiqcodnitive.github.io/static/js/main.a2242efa.js.map"
+    "main.8c49beb7.js.map": "https://zuxiqcodnitive.github.io/static/js/main.8c49beb7.js.map"
   },
   "entrypoints": [
     "static/css/main.3acec7db.css",
-    "static/js/main.a2242efa.js"
+    "static/js/main.8c49beb7.js"
   ]
 }
