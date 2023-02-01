@@ -26,7 +26,7 @@ import "./assets/scss/style.scss"
 
 const App = () => {
   return (
-    <Router base="/">
+    <Router>
       <NavScrollTop>
         <Switch>
           <Route
