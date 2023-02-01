@@ -1,28 +1,28 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import NavScrollTop from "./components/nav-scroll-top";
-import HomePage from "./pages/index";
-import AboutPage from "./pages/about";
-import ServicePage from "./pages/service";
-import ServiceDetails from "./templates/service-details";
-import TeamPage from "./pages/team";
-import FaqPage from "./pages/faq";
-import BlogPage from "./pages/blog";
-import BlogLeftSidebarPage from "./pages/blog-left-sidebar";
-import BlogRightSidebarPage from "./pages/blog-right-sidebar";
-import BlogDetailsPage from "./templates/blog-details";
-import BlogAuthor from "./templates/blog-author";
-import BlogDate from "./templates/blog-date";
-import BlogTag from "./templates/blog-tag";
-import BlogCategory from "./templates/blog-category";
-import ContactPage from "./pages/contact";
-import "swiper/components/navigation/navigation.scss";
-import "swiper/swiper.scss";
-import "./assets/css/vendor/metropolis.css";
-import "./assets/css/vendor/icofont.min.css";
-import "./assets/css/vendor/font-awesome.css";
-import "./assets/css/vendor/material-design-iconic.min.css";
-import "./assets/css/plugins/animate.min.css";
-import "./assets/scss/style.scss";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import NavScrollTop from "./components/nav-scroll-top"
+import HomePage from "./pages/index"
+import AboutPage from "./pages/about"
+import ServicePage from "./pages/service"
+import ServiceDetails from "./templates/service-details"
+import TeamPage from "./pages/team"
+import FaqPage from "./pages/faq"
+import BlogPage from "./pages/blog"
+import BlogLeftSidebarPage from "./pages/blog-left-sidebar"
+import BlogRightSidebarPage from "./pages/blog-right-sidebar"
+import BlogDetailsPage from "./templates/blog-details"
+import BlogAuthor from "./templates/blog-author"
+import BlogDate from "./templates/blog-date"
+import BlogTag from "./templates/blog-tag"
+import BlogCategory from "./templates/blog-category"
+import ContactPage from "./pages/contact"
+import "swiper/components/navigation/navigation.scss"
+import "swiper/swiper.scss"
+import "./assets/css/vendor/metropolis.css"
+import "./assets/css/vendor/icofont.min.css"
+import "./assets/css/vendor/font-awesome.css"
+import "./assets/css/vendor/material-design-iconic.min.css"
+import "./assets/css/plugins/animate.min.css"
+import "./assets/scss/style.scss"
 
 const App = () => {
   return (
@@ -43,9 +43,7 @@ const App = () => {
             component={ServicePage}
           />
           <Route
-            path={`${
-              process.env.PUBLIC_URL + "/service-details/:id"
-            }`}
+            path={`${process.env.PUBLIC_URL + "/service-details/:id"}`}
             component={ServiceDetails}
           />
           <Route
@@ -65,15 +63,11 @@ const App = () => {
             component={BlogPage}
           />
           <Route
-            path={`${
-              process.env.PUBLIC_URL + "/blog-left-sidebar"
-            }`}
+            path={`${process.env.PUBLIC_URL + "/blog-left-sidebar"}`}
             component={BlogLeftSidebarPage}
           />
           <Route
-            path={`${
-              process.env.PUBLIC_URL + "/blog-right-sidebar"
-            }`}
+            path={`${process.env.PUBLIC_URL + "/blog-right-sidebar"}`}
             component={BlogRightSidebarPage}
           />
           <Route
@@ -99,7 +93,7 @@ const App = () => {
         </Switch>
       </NavScrollTop>
     </Router>
-  );
-};
+  )
+}
 
-export default App;
+export default App
