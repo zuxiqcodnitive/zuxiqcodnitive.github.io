@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { HashRouter as Router, Route, Switch } from "react-router-dom"
 import NavScrollTop from "./components/nav-scroll-top"
 import HomePage from "./pages/index"
 import AboutPage from "./pages/about"
@@ -26,7 +26,7 @@ import "./assets/scss/style.scss"
 
 const App = () => {
   return (
-    <Router>
+    <Router base="/">
       <NavScrollTop>
         <Switch>
           <Route
