@@ -201,35 +201,34 @@ br {
   overflow: hidden;
 
   &.show {
-      visibility: visible;
-      opacity: 1;
-      bottom: 60px;
+    visibility: visible;
+    opacity: 1;
+    bottom: 60px;
   }
 
   i {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      color: $white;
-      transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: $white;
+    transition: all 0.3s ease-in-out;
   }
 
   .arrow-top {
-      transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 
   .arrow-bottom {
-      transform: translate(-50%, 80px);
+    transform: translate(-50%, 80px);
   }
 
   &:hover {
-      background-position: right center;
-      .arrow-top {
-          transform: translate(-50%, -80px);
-      }
-      .arrow-bottom {
-          transform: translate(-50%, -50%);
-      }
+    background-position: right center;
+    .arrow-top {
+      transform: translate(-50%, -80px);
+    }
+    .arrow-bottom {
+      transform: translate(-50%, -50%);
+    }
   }
 }
-

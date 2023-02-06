@@ -19,13 +19,13 @@
   line-height: 1.333;
   margin-bottom: 10px;
   font-size: 18px;
-  a{
+  a {
     color: $sub-headings-color;
-    &:hover{
+    &:hover {
       color: $primary;
     }
   }
-  .separator{
+  .separator {
     margin: 0 8px;
   }
 }
@@ -35,8 +35,8 @@
   line-height: 1.142;
   margin-bottom: 40px;
   font-size: 42px;
-  @include max-screen(767){
-      font-size: 30px;
+  @include max-screen(767) {
+    font-size: 30px;
   }
 }
 .blog-details-list {
@@ -74,12 +74,11 @@
 }
 
 .blog-details-grid {
-
-    .col{
-        @include max-screen(991){
-            min-width: 100%;
-        }
+  .col {
+    @include max-screen(991) {
+      min-width: 100%;
     }
+  }
   img {
     @include min-screen(1500) {
       margin-left: 64px;
@@ -144,7 +143,6 @@
 }
 
 .author-list {
-  
   margin-bottom: 75px;
   &:nth-child(even) {
     @include min-screen(1500) {

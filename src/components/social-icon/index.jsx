@@ -1,25 +1,25 @@
-import PropTypes from "prop-types";
+import PropTypes from "prop-types"
 
 const SocialIcon = ({ path, icon, classOption }) => {
-    return (
-        <a
-            className={`${classOption}`}
-            href={process.env.PUBLIC_URL + path}
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            <i className={icon}></i>
-        </a>
-    );
-};
+  return (
+    <a
+      className={`${classOption}`}
+      href={process.env.PUBLIC_URL + path}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i className={icon}></i>
+    </a>
+  )
+}
 
 SocialIcon.propTypes = {
-    path: PropTypes.string,
-    icon: PropTypes.string,
-    classOption: PropTypes.string,
-};
+  path: PropTypes.string,
+  icon: PropTypes.string,
+  classOption: PropTypes.string,
+}
 SocialIcon.defaultProps = {
-    classOption: "footer-social-link",
-};
+  classOption: "footer-social-link",
+}
 
-export default SocialIcon;
+export default SocialIcon

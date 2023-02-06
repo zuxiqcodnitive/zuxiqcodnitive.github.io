@@ -1,5 +1,4 @@
 .form-control {
-
   @include box-shadow($input-box-shadow);
 
   // Customize the `:focus` state to imitate native WebKit styles.

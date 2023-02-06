@@ -132,7 +132,7 @@
   @include max-screen(481, 767) {
     margin-left: -15px;
     margin-right: -15px;
-    }
+  }
 }
 .new-team-members-list {
   text-align: center;
@@ -169,7 +169,7 @@
   @include max-screen(481, 767) {
     margin-left: 15px;
     margin-right: 15px;
-    }
+  }
 
   &:nth-child(2) {
     @include min-screen(768) {

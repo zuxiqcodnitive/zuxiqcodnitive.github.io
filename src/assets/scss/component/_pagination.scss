@@ -1,13 +1,10 @@
-
 .page-item {
-    margin:  0px 10px;
-    &.active .page-link {
-      color: $pagination-active-color;
-      background: transparent;
-    }
+  margin: 0px 10px;
+  &.active .page-link {
+    color: $pagination-active-color;
+    background: transparent;
   }
-  
-
+}
 
 .page-link {
   font-weight: 600;

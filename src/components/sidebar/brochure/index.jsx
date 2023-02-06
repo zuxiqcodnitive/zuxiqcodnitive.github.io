@@ -1,14 +1,14 @@
-import React from "react";
+import React from "react"
 // import Download from "@axetroy/react-download";
 
-const element = document.createElement("div");
-document.body.appendChild(element);
+const element = document.createElement("div")
+document.body.appendChild(element)
 
 const Brochure = () => {
-    return (
-        <div className="sidbar-menu">
-            <ul>
-                {/*<li className="m-0">
+  return (
+    <div className="sidbar-menu">
+      <ul>
+        {/*<li className="m-0">
                     <Download
                         file="test.txt"
                         content="Ha Ha Ha, Heavy Relax, See You Not For Mind. kew amare chuse kore na not on like. cold baby cold baby,  just chill.....
@@ -43,9 +43,9 @@ const Brochure = () => {
                         </button>
                     </Download>
                 </li>*/}
-            </ul>
-        </div>
-    );
-};
+      </ul>
+    </div>
+  )
+}
 
-export default Brochure;
+export default Brochure

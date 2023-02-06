@@ -24,7 +24,7 @@
     padding: 70px;
   }
 
-  @include max-screen(768,991) {
+  @include max-screen(768, 991) {
     padding: 70px 180px;
   }
 
@@ -39,7 +39,7 @@
     text-decoration: underline;
     margin-bottom: 25px;
     font-size: 24px;
-    @include max-screen(767){
+    @include max-screen(767) {
       margin-bottom: 15px;
       font-size: 18px;
     }

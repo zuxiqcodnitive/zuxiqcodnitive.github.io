@@ -1,36 +1,33 @@
-import PropTypes from "prop-types";
+import PropTypes from "prop-types"
 
 const SectionTitle = ({
-    subTitle,
-    title,
-    excerpt,
-    classOption,
-    excerptClassOption,
+  subTitle,
+  title,
+  excerpt,
+  classOption,
+  excerptClassOption,
 }) => {
-    return (
-        <div className={`title-section ${classOption}`}>
-            <span className="sub-title">{subTitle}</span>
-            <h3
-                className="title"
-                dangerouslySetInnerHTML={{ __html: title }}
-            ></h3>
-            <p
-                className={`${excerptClassOption}`}
-                dangerouslySetInnerHTML={{ __html: excerpt }}
-            ></p>
-        </div>
-    );
-};
+  return (
+    <div className={`title-section ${classOption}`}>
+      <span className="sub-title">{subTitle}</span>
+      <h3 className="title" dangerouslySetInnerHTML={{ __html: title }}></h3>
+      <p
+        className={`${excerptClassOption}`}
+        dangerouslySetInnerHTML={{ __html: excerpt }}
+      ></p>
+    </div>
+  )
+}
 
 SectionTitle.propTypes = {
-    subTitle: PropTypes.string,
-    title: PropTypes.string,
-    excerpt: PropTypes.string,
-    classOption: PropTypes.string,
-    excerptClassOption: PropTypes.string,
-};
+  subTitle: PropTypes.string,
+  title: PropTypes.string,
+  excerpt: PropTypes.string,
+  classOption: PropTypes.string,
+  excerptClassOption: PropTypes.string,
+}
 SectionTitle.defaultProps = {
-    classOption: "section-title",
-};
+  classOption: "section-title",
+}
 
-export default SectionTitle;
+export default SectionTitle

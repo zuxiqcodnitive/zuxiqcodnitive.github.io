@@ -12,7 +12,6 @@
   @include border-radius($list-group-border-radius);
 }
 
-
 // Interactive list items
 //
 // Use anchor or button elements instead of `li`s or `div`s to create interactive
@@ -38,7 +37,6 @@
   }
 }
 
-
 // Individual list items
 //
 // Use on `li`s or `div`s within the `.list-group` parent.
@@ -51,9 +49,9 @@
   text-decoration: if($link-decoration == none, null, none);
   background-color: $list-group-bg;
   border: $list-group-border-width solid $list-group-border-color;
-  a{
+  a {
     color: $list-group-color;
-    &:hover{
+    &:hover {
       color: $primary;
     }
   }
@@ -90,7 +88,6 @@
     }
   }
 }
-
 
 // Horizontal
 //
@@ -132,7 +129,6 @@
   }
 }
 
-
 // Flush list items
 //
 // Remove borders and border-radius to keep list group items edge-to-edge. Most
@@ -149,7 +145,6 @@
     }
   }
 }
-
 
 // scss-docs-start list-group-modifiers
 // List group contextual variants

@@ -1,20 +1,20 @@
 [
-    {
-        "id": 1,
-        "classOption": "address-list mb-4 mb-xl-10 pb-2",
-        "title": "Office",
-        "info": "Cluj-Napoca, Str. Campului, 242, ap 27, Cluj, Romania"
-    },
-    {
-        "id": 2,
-        "classOption": "address-list mb-4 mb-xl-10 pb-2",
-        "title": "Phone",
-        "info": "+40723043817 <br /> +4791792089"
-    },
-    {
-        "id": 3,
-        "classOption": "address-list",
-        "title": "Email",
-        "info": "andreea@zuxiqcodnitive.com"
-    }
+  {
+    "id": 1,
+    "classOption": "address-list mb-4 mb-xl-10 pb-2",
+    "title": "Office",
+    "info": "Cluj-Napoca, Str. Campului, 242, ap 27, Cluj, Romania"
+  },
+  {
+    "id": 2,
+    "classOption": "address-list mb-4 mb-xl-10 pb-2",
+    "title": "Phone",
+    "info": "+40723043817 <br /> +4791792089"
+  },
+  {
+    "id": 3,
+    "classOption": "address-list",
+    "title": "Email",
+    "info": "andreea@zuxiqcodnitive.com"
+  }
 ]

@@ -57,12 +57,13 @@
     margin-bottom: -15px;
     li {
       margin-bottom: 15px;
-        button {
-          border-bottom: 1px solid #e1e1e1;
-          border-radius: 0 !important;
-        }
+      button {
+        border-bottom: 1px solid #e1e1e1;
+        border-radius: 0 !important;
+      }
 
-      a, button {
+      a,
+      button {
         display: flex;
         align-items: center;
         font-family: $headings-font-family;

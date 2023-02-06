@@ -3,7 +3,7 @@
   z-index: 9999;
   top: 100%;
   right: 0;
-  @include min-screen(1200){
+  @include min-screen(1200) {
     left: 0;
   }
   visibility: hidden;
