@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import Logo from "../../components/logo"
-import SocialIcon from "../../components/social-icon"
 
 const Footer = () => {
   return (
@@ -20,44 +19,11 @@ const Footer = () => {
                   classOption="footer-logo mb-9 "
                   image={`${process.env.PUBLIC_URL}/images/logo/zuxiq-logo.png`}
                 />
-                <p>
-                  Pleasure rationally encounter consequences that extremely
-                  painful. Nor again is there
-                </p>
-                <ul className="footer-social-links">
-                  <li>
-                    <SocialIcon
-                      classOption="footer-social-link"
-                      path="https://www.facebook.com/"
-                      icon="icofont-facebook"
-                    />
-                  </li>
-                  <li>
-                    <SocialIcon
-                      classOption="footer-social-link"
-                      path="https://www.instagram.com/"
-                      icon="icofont-instagram"
-                    />
-                  </li>
-                  <li>
-                    <SocialIcon
-                      classOption="footer-social-link"
-                      path="https://twitter.com/"
-                      icon="icofont-twitter"
-                    />
-                  </li>
-                  <li>
-                    <SocialIcon
-                      classOption="footer-social-link"
-                      path="https://www.whatsapp.com/"
-                      icon="icofont-whatsapp"
-                    />
-                  </li>
-                </ul>
+                <p />
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 mb-7 offset-xl-1">
-              <div className="footer-widget">
+            <div className="col-lg-4 col-sm-6 mb-7 offset-xl-1">
+              <div className="footer-widget text-right">
                 <h4 className="title">Quick Link</h4>
                 <ul className="footer-menu">
                   <li>
@@ -68,15 +34,15 @@ const Footer = () => {
                       About us
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       className="footer-link"
                       to={process.env.PUBLIC_URL + "/service"}
                     >
                       Pricing Plan
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link
                       className="footer-link"
                       to={process.env.PUBLIC_URL + "/about"}
@@ -99,7 +65,7 @@ const Footer = () => {
                     >
                       Our Clients
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       className="footer-link"
@@ -111,7 +77,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-2 col-sm-6 mb-7">
+            {/* <div className="col-lg-2 col-sm-6 mb-7">
               <div className="footer-widget">
                 <h4 className="title">Services</h4>
                 <ul className="footer-menu">
@@ -165,7 +131,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-3 col-sm-6 mb-7">
               <div className="footer-widget">
                 <h4 className="title">Contact info</h4>

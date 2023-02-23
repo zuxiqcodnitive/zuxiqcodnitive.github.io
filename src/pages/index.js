@@ -5,7 +5,6 @@ import BrandContainer from "../containers/global/brand/index"
 import FunFactContainer from "../containers/global/funfact"
 import IconBoxContainer from "../containers/global/icon-box"
 import NewsletterArea from "../containers/global/newsletter"
-import TeamContainer from "../containers/global/team"
 import TestimonialContainer from "../containers/global/testimonial"
 import HomeAboutContainer from "../containers/home/about"
 import HomeBlog from "../containers/home/blog"
@@ -23,15 +22,14 @@ const HomePage = () => {
         <div className="wrapper">
           <Header />
           <IntroContainer />
-          <BrandContainer />
-          <IconBoxContainer classOption="section-pb" />
-          <HomeAboutContainer />
+          {/* <BrandContainer /> */}
+          <IconBoxContainer classOption="section-py" />
+          {/* <HomeAboutContainer /> */}
           <ServiceListContainer />
           <TestimonialContainer />
-          <FunFactContainer classOption="mt-10 mt-lg-0" />
-          <TeamContainer classOption="section-pb" />
-          <HomeBlog />
-          <NewsletterArea />
+          {/* <FunFactContainer classOption="mt-10 mt-lg-0" /> */}
+          {/* <HomeBlog />
+          <NewsletterArea /> */}
           <Footer />
           <ScrollToTop />
         </div>

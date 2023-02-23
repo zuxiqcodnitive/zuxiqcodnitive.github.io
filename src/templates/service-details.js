@@ -1,6 +1,5 @@
 import React from "react"
 import PropTypes from "prop-types"
-import NewsletterArea from "../containers/global/newsletter"
 import PageBanner from "../containers/global/page-banner"
 import Footer from "../layouts/footer"
 import Header from "../layouts/header"
@@ -25,12 +24,10 @@ const ServiceDetails = ({
           <Header />
           <PageBanner
             title={data[0]?.title}
-            excerpt="Pleasure rationally encounter consequences <br />
-                        are extremely painful great oppurtunity"
+            excerpt=""
             image="/images/service/2.png"
           />
           <ServiceDetailsContainer data={data[0]} />
-          <NewsletterArea />
           <Footer />
           <ScrollToTop />
         </div>
