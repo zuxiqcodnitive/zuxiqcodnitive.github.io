@@ -68,7 +68,7 @@
   {
     "id": 4,
     "icon": "./images/service/icon/6.1.png",
-    "smallIcon": "/images/service/icon/small/6.1.png",
+    "smallIcon": "/images/service/icon/small/6.png",
     "image": "./images/service/6.1.png",
     "title": "QA",
     "categories": [

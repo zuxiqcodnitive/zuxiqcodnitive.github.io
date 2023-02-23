@@ -106,21 +106,15 @@
     "team": [
       {
         "id": 1,
-        "thumb": "./images/team/rounded-img1.png",
-        "name": "Cristopher Williams",
-        "designation": "Head of Idea"
+        "thumb": "./images/team/8.png",
+        "name": "Andreea O",
+        "designation": "CEO and Head of Administration"
       },
       {
         "id": 2,
-        "thumb": "./images/team/rounded-img2.png",
-        "name": "Rebeca Smith",
-        "designation": "Head of HR"
-      },
-      {
-        "id": 3,
-        "thumb": "./images/team/rounded-img3.png",
-        "name": "Ricardo Powel",
-        "designation": "Head of Development"
+        "thumb": "./images/team/7.png",
+        "name": "Claudiu P",
+        "designation": "Head of Coding"
       }
     ]
   }
