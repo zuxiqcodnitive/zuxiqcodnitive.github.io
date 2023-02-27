@@ -1,18 +1,31 @@
 import React, { Fragment } from "react"
 import { useForm } from "react-hook-form"
+import { send } from "emailjs-com"
 
 const ContactForm = () => {
-  const { register, errors } = useForm({
+  const { register, errors, getValues, formState } = useForm({
     mode: "onBlur",
   })
+  const sendEmail = (e) => {
+    e.preventDefault() // prevents the page from reloading when you hit “Send”
+
+    send(
+      "service_6tuknpp",
+      "template_mp3svs6",
+      getValues(),
+      "299f8pKq9u2Q7gWmB"
+    ).then(
+      (result) => {
+        // show the user a success message
+      },
+      (error) => {
+        // show the user an error
+      }
+    )
+  }
   return (
     <Fragment>
-      <form
-        id="contactForm"
-        className="row"
-        action="https://getform.io/f/a17a2715-d7ee-4ac4-8fcb-12f1eed43b2c"
-        method="POST"
-      >
+      <form id="contactForm" className="row" onSubmit={sendEmail}>
         <div className="col-12 col-sm-6 mb-7">
           <input
             type="text"
@@ -62,6 +75,7 @@ const ContactForm = () => {
             type="submit"
             className="btn btn-dark btn-hover-dark"
             data-complete-text="Well Done!"
+            disabled={!formState.isValid}
           >
             Send Message
           </button>
