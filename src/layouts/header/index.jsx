@@ -42,7 +42,11 @@ const Header = () => {
 
             <div className="col text-end">
               <MainMenu />
-              <button className="toggle" onClick={onCanvasHandler}>
+              <button
+                className="toggle"
+                onClick={onCanvasHandler}
+                style={{ outline: "none" }}
+              >
                 <span className="icon-top"></span>
                 <span className="icon-middle"></span>
                 <span className="icon-bottom"></span>
