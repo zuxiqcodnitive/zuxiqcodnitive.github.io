@@ -135,7 +135,7 @@ const Footer = () => {
             <div className="col-lg-3 col-sm-6 mb-7">
               <div className="footer-widget">
                 <h4 className="title">Contact info</h4>
-                <p>Cluj-Napoca, Str. Campului, 242, ap 27, Cluj</p>
+                <p>Cluj-Napoca, Campului 242, apt. 27, Cluj</p>
                 <ul className="address">
                   <li>
                     <a className="address-link" href="tel:+4791792089">
