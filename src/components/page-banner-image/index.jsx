@@ -15,7 +15,11 @@ const PageBannerImage = ({ image }) => {
     return () => parallaxInstance.disable()
   }, [])
   return (
-    <div className="banner-content scene banner-img" id="scene" ref={sceneEl}>
+    <div
+      className="banner-content scene banner-img mb-9"
+      id="scene"
+      ref={sceneEl}
+    >
       <div data-depth="0.2">
         <img src={process.env.PUBLIC_URL + image} alt="img" />
       </div>

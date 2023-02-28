@@ -16565,8 +16565,8 @@ textarea.form-control {
 .grid-item .feature-card.bg-light:hover,
 .grid-item .feature-card.bg-light.active {
   background-color: #f0fff4 !important;
-  -webkit-box-shadow: 0px 16px 27px 0px rgba(0, 0, 0, 0.08);
-  box-shadow: 0px 16px 27px 0px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 0 16px 27px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 16px 27px 0 rgba(0, 0, 0, 0.08);
 }
 
 .grid-item .feature-card .title {
@@ -16625,8 +16625,8 @@ textarea.form-control {
 .service-card.bg-light:hover,
 .service-card.bg-light.active {
   background-color: #f0fff4 !important;
-  -webkit-box-shadow: 0px 16px 27px 0px rgba(0, 0, 0, 0.08);
-  box-shadow: 0px 16px 27px 0px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 0 16px 27px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 16px 27px 0 rgba(0, 0, 0, 0.08);
 }
 
 .service-card .title {

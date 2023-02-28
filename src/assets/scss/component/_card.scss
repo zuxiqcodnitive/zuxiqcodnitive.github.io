@@ -9,7 +9,7 @@
   height: 170px;
   border-radius: 50%;
   &-light {
-    background: $lime-100;
+    background: #dc911e;
     top: -100%;
     right: -100%;
     z-index: 1;
@@ -18,7 +18,7 @@
   &-dark {
     top: -100%;
     right: -100%;
-    background: $lime-800;
+    background: #F4EACC;
     z-index: 2;
     transition: ease-in-out 0.8s;
   }
@@ -36,8 +36,8 @@
     &.bg-light {
       &:hover,
       &.active {
-        background-color: $lime-600 !important;
-        box-shadow: 0px 16px 27px 0px rgba(0, 0, 0, 0.08);
+        background-color: #F4EACC !important;
+        box-shadow: 0 16px 27px 0 rgba(0, 0, 0, 0.08);
       }
     }
     .title {

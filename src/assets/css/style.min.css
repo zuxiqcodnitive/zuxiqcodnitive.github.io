@@ -14968,7 +14968,7 @@ textarea.form-control {
 }
 .grid-item .feature-card.bg-light:hover,
 .grid-item .feature-card.bg-light.active {
-  background-color: #f0fff4 !important;
+  background-color: #F4EACC !important;
   -webkit-box-shadow: 0px 16px 27px 0px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 16px 27px 0px rgba(0, 0, 0, 0.08);
 }

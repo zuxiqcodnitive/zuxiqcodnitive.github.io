@@ -17,7 +17,7 @@ const PageBanner = ({ title, excerpt, image }) => {
             <PageTitle title={title} excerpt={excerpt} />
           </div>
 
-          <div className="col-md-6 mt-7 mt-md-0">
+          <div className="col-md-6 mt-auto mb-auto">
             <PageBannerImage image={image} />
           </div>
         </div>
