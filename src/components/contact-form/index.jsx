@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form"
 import { send } from "emailjs-com"
 
 const ContactForm = () => {
-  const { register, errors, getValues, formState } = useForm({
+  const { register, errors, getValues, formState, reset, setError } = useForm({
     mode: "onBlur",
   })
   const sendEmail = (e) => {
@@ -16,10 +16,17 @@ const ContactForm = () => {
       "299f8pKq9u2Q7gWmB"
     ).then(
       (result) => {
-        // show the user a success message
+        reset()
+        setError("success", {
+          type: "custom",
+          message: "Message successfully sent!",
+        })
       },
       (error) => {
-        // show the user an error
+        setError("general", {
+          type: "custom",
+          message: "Something went wrong, please try again!",
+        })
       }
     )
   }
@@ -35,7 +42,9 @@ const ContactForm = () => {
             placeholder="Your Name*"
             ref={register({ required: "Name is required" })}
           />
-          {errors.name && <p>{errors.name.message}</p>}
+          {errors.name && (
+            <p className="alert alert-warning">{errors.name.message}</p>
+          )}
         </div>
         <div className="col-12 col-sm-6 mb-7">
           <input
@@ -52,7 +61,9 @@ const ContactForm = () => {
               },
             })}
           />
-          {errors.email && <p>{errors.email.message}</p>}
+          {errors.email && (
+            <p className="alert alert-warning">{errors.email.message}</p>
+          )}
         </div>
 
         <div className="col-12 mb-9">
@@ -67,8 +78,23 @@ const ContactForm = () => {
               required: "Message is required",
             })}
           ></textarea>
-          {errors.message && <p>{errors.message.message}</p>}
+          {errors.message && (
+            <p className="alert alert-warning">{errors.message.message}</p>
+          )}
         </div>
+        {errors.general && (
+          <div className="col-12 col-sm-6 mb-7">
+            <p className="alert alert-warning col-12 col-sm-6 mb-7">
+              {errors.general.message}
+            </p>
+          </div>
+        )}
+        {errors.success && (
+          <div className="col-12 col-sm-6 mb-7">
+            <p className="alert alert-success">{errors.success.message}</p>
+          </div>
+        )}
+
         <div className="col-12">
           <button
             id="contactSubmit"
