@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.544dd2df.css",
-    "main.js": "/static/js/main.e0012f99.js",
+    "main.css": "/static/css/main.2e07a427.css",
+    "main.js": "/static/js/main.739f7af7.js",
     "static/media/icofont.woff": "/static/media/icofont.dad3accba068281878f1.woff",
     "static/media/icofont.woff2": "/static/media/icofont.9c33516aab48c61e3081.woff2",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -31,11 +31,11 @@
     "static/media/Metropolis-ExtraLight.woff": "/static/media/Metropolis-ExtraLight.e8a76367efd68d5f724c.woff",
     "static/media/Metropolis-Thin.woff": "/static/media/Metropolis-Thin.f31ca844537be9530d10.woff",
     "index.html": "/index.html",
-    "main.544dd2df.css.map": "/static/css/main.544dd2df.css.map",
-    "main.e0012f99.js.map": "/static/js/main.e0012f99.js.map"
+    "main.2e07a427.css.map": "/static/css/main.2e07a427.css.map",
+    "main.739f7af7.js.map": "/static/js/main.739f7af7.js.map"
   },
   "entrypoints": [
-    "static/css/main.544dd2df.css",
-    "static/js/main.e0012f99.js"
+    "static/css/main.2e07a427.css",
+    "static/js/main.739f7af7.js"
   ]
 }
