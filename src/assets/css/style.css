@@ -3082,7 +3082,7 @@ textarea.form-control-lg {
   -moz-appearance: none;
   appearance: none;
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  print-color-adjust: exact;
   -webkit-transition: background-color 0.15s ease-in-out,
     background-position 0.15s ease-in-out, border-color 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
@@ -17287,14 +17287,14 @@ textarea.form-control {
 
 @media screen and (max-width: 575px) {
   .team-grid-item:last-child {
-    margin-left: 0px;
+    margin-left: 0;
   }
 }
 
 .team-card {
   text-align: center;
   padding: 35px;
-  border: 1px solid #59e3a7;
+  border: 1px solid #dc911e;
   background-color: #fbfbfb;
   border-radius: 85px;
   -webkit-transition: all 0.3s;

@@ -11,7 +11,7 @@
   }
   margin-right: -30px;
   @include max-screen(767) {
-    margin-right: 0px;
+    margin-right: 0;
   }
 }
 .team-grid-item {
@@ -30,12 +30,10 @@
   @include max-screen(575) {
     width: 100%;
   }
-
-  margin-right: 30px;
   margin-right: 15px;
 
   @include max-screen(575) {
-    margin-right: 0px;
+    margin-right: 0;
   }
   &:nth-child(1) {
     margin-left: 40px;
@@ -51,8 +49,8 @@
       margin-right: 30px;
     }
     @include max-screen(575) {
-      margin-left: 0px;
-      margin-right: 0px;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 
@@ -60,7 +58,7 @@
     margin-top: 5.625rem;
 
     @include max-screen(575) {
-      margin-top: 0rem;
+      margin-top: 0;
     }
   }
 
@@ -80,7 +78,7 @@
     }
 
     @include max-screen(575) {
-      margin-left: 0px;
+      margin-left: 0;
     }
   }
 }
@@ -88,25 +86,22 @@
 .team-card {
   text-align: center;
   padding: 35px;
-  border: 1px solid #59e3a7;
+  border: 1px solid #dc911e;
   background-color: #fbfbfb;
   border-radius: 85px;
   transition: all 0.3s;
   &:hover,
   &.active {
     border-color: #263238;
-    box-shadow: 0px 9px 35px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: 0 9px 35px 0 rgba(0, 0, 0, 0.09);
   }
   .thumb {
     a {
       display: block;
-      // img {
-      //   width: 100%;
-      // }
     }
   }
   .content {
-    padding: 1.25rem 0rem;
+    padding: 1.25rem 0;
     .title {
       transition: all 0.3s ease-in-out;
       color: $card-headings-color;

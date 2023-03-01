@@ -1,13 +1,13 @@
 import React from "react"
 import ScrollToTop from "../components/scroll-to-top"
 import SEO from "../components/seo"
-import BrandContainer from "../containers/global/brand/index"
-import FunFactContainer from "../containers/global/funfact"
+// import BrandContainer from "../containers/global/brand/index"
+// import FunFactContainer from "../containers/global/funfact"
 import IconBoxContainer from "../containers/global/icon-box"
-import NewsletterArea from "../containers/global/newsletter"
-import TestimonialContainer from "../containers/global/testimonial"
+// import NewsletterArea from "../containers/global/newsletter"
+// import TestimonialContainer from "../containers/global/testimonial"
 import HomeAboutContainer from "../containers/home/about"
-import HomeBlog from "../containers/home/blog"
+// import HomeBlog from "../containers/home/blog"
 import IntroContainer from "../containers/home/intro"
 import ServiceListContainer from "../containers/service/service-list"
 import Footer from "../layouts/footer"
@@ -26,7 +26,7 @@ const HomePage = () => {
           <IconBoxContainer classOption="section-py" />
           {/* <HomeAboutContainer /> */}
           <ServiceListContainer />
-          <TestimonialContainer />
+          {/* <TestimonialContainer /> */}
           {/* <FunFactContainer classOption="mt-10 mt-lg-0" /> */}
           {/* <HomeBlog />
           <NewsletterArea /> */}

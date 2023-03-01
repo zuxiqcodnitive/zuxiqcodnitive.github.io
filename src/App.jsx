@@ -5,15 +5,15 @@ import AboutPage from "./pages/about"
 import ServicePage from "./pages/service"
 import ServiceDetails from "./templates/service-details"
 import TeamPage from "./pages/team"
-import FaqPage from "./pages/faq"
-import BlogPage from "./pages/blog"
-import BlogLeftSidebarPage from "./pages/blog-left-sidebar"
-import BlogRightSidebarPage from "./pages/blog-right-sidebar"
-import BlogDetailsPage from "./templates/blog-details"
-import BlogAuthor from "./templates/blog-author"
-import BlogDate from "./templates/blog-date"
-import BlogTag from "./templates/blog-tag"
-import BlogCategory from "./templates/blog-category"
+// import FaqPage from "./pages/faq"
+// import BlogPage from "./pages/blog"
+// import BlogLeftSidebarPage from "./pages/blog-left-sidebar"
+// import BlogRightSidebarPage from "./pages/blog-right-sidebar"
+// import BlogDetailsPage from "./templates/blog-details"
+// import BlogAuthor from "./templates/blog-author"
+// import BlogDate from "./templates/blog-date"
+// import BlogTag from "./templates/blog-tag"
+// import BlogCategory from "./templates/blog-category"
 import ContactPage from "./pages/contact"
 import "swiper/components/navigation/navigation.scss"
 import "swiper/swiper.scss"
@@ -50,15 +50,15 @@ const App = () => {
             path={`${process.env.PUBLIC_URL + "/team"}`}
             component={TeamPage}
           />
-          <Route
+          {/* <Route
             path={`${process.env.PUBLIC_URL + "/faq"}`}
             component={FaqPage}
-          />
+          />*/}
           <Route
             path={`${process.env.PUBLIC_URL + "/contact"}`}
             component={ContactPage}
           />
-          <Route
+          {/* <Route
             path={`${process.env.PUBLIC_URL + "/blog"}`}
             component={BlogPage}
           />
@@ -69,8 +69,8 @@ const App = () => {
           <Route
             path={`${process.env.PUBLIC_URL + "/blog-right-sidebar"}`}
             component={BlogRightSidebarPage}
-          />
-          <Route
+          />*/}
+          {/* <Route
             path={`${process.env.PUBLIC_URL + "/blog-details/:id"}`}
             component={BlogDetailsPage}
           />
@@ -81,15 +81,15 @@ const App = () => {
           <Route
             path={`${process.env.PUBLIC_URL + "/date/:date"}`}
             component={BlogDate}
-          />
-          <Route
+          />*/}
+          {/*<Route
             path={`${process.env.PUBLIC_URL + "/tag/:slug"}`}
             component={BlogTag}
           />
           <Route
             path={`${process.env.PUBLIC_URL + "/category/:slug"}`}
             component={BlogCategory}
-          />
+          />*/}
         </Switch>
       </NavScrollTop>
     </Router>
