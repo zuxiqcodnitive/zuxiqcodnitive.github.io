@@ -135,11 +135,11 @@ const Footer = () => {
             <div className="col-lg-3 col-sm-6 mb-7">
               <div className="footer-widget">
                 <h4 className="title">Contact info</h4>
-                <p>Cluj-Napoca, Campului 242, apt. 27, Cluj</p>
+                <p>Cluj-Napoca, Campului 242 / 27, Cluj</p>
                 <ul className="address">
                   <li>
-                    <a className="address-link" href="tel:+4791792089">
-                      +4791792089
+                    <a className="address-link" href="tel:+40730477641">
+                      +40730477641
                     </a>
                   </li>
                   <li>
@@ -148,7 +148,10 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a className="address-link" href="mailto:info@example.com">
+                    <a
+                      className="address-link"
+                      href="mailto:andreea@zuxiqcodnitive.com"
+                    >
                       andreea@zuxiqcodnitive.com
                     </a>
                   </li>

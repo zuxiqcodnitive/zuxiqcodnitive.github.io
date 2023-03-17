@@ -5,18 +5,18 @@ import ServiceData from "../../../data/service.json"
 
 const ServiceListContainer = () => {
   return (
-    <div className="service-section section-pt position-relative">
+    <div className="service-section section-pt position-relative mb-12">
       <div className="container">
         <div className="row">
           <div className="col-xl-6 col-lg-8 mx-auto">
             <SectionTitle
               classOption="title-section mb-10 pb-10 text-center"
-              subTitle="services"
+              subTitle=""
               title="Check <span class='text-primary'>our</span> Services"
               excerptClassOption="null"
-              excerpt="Get in touch with us by e-mail or call us. <br className='d-none d-xl-block' />
-                       We want to meet with you in person.<br className='d-none d-xl-block' />
-                       We are unconventionally not linked to social media."
+              excerpt="We provide you the reports and the key indicators for your business, excluding manual processing
+and reducing errors. We skip Excel calculations and give you reports to be analysed everywhere,
+online, fast & secure."
             />
           </div>
         </div>

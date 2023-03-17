@@ -14,20 +14,22 @@ const TeamContainer = ({ classOption }) => {
             <div className="team-content-wrap">
               <SectionTitle
                 classOption="title-section"
-                subTitle="TEAM"
+                subTitle=""
                 title="People, <span class='text-primary'>Behind</span> the Screen"
                 excerptClassOption="mb-5"
-                excerpt="Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain"
+                excerpt="We are a team of open-minded, dynamic and with a problem-solving mindset.<br/>
+                         We have deep skill sets within web developing (full-stack), analysing & reporting, QA and Project
+                         Management.<br/>
+                         We dedicate fully to our customer's solution and we focus on details and different perspectives.<br/>
+                         Get in touch with us by e-mail or call us. We want to meet with you in person.<br/>
+                         We are unconventionally not linked to social media.<br/>
+                         Let's get started."
               />
-              <p className="high-light mb-8">
-                Pleasure rationally encounter consequences that are extremely
-                painful. Nor again is there
-              </p>
-              <Button
+              {/* <Button
                 classOption="btn btn-lg btn-dark btn-hover-dark"
                 text="View more"
                 path="/team"
-              />
+              /> */}
             </div>
           </div>
           <div className="col-lg-7">

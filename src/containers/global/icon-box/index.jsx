@@ -18,12 +18,10 @@ const IconBoxContainer = ({ classOption }) => {
           <div className="col-xl-6 col-lg-8 mx-auto mb-3 text-center">
             <SectionTitle
               classOption="title-section"
-              subTitle="FEATURES"
+              subTitle=""
               title="We are <span class='text-primary'>different</span> because..."
               excerptClassOption="mb-10"
-              excerpt="We are different because we keep it simple. <br className='d-none d-xl-block' />
-                       Simple enough to help you set up the solution and than teach you how you can do it yourself. <br className='d-none d-xl-block' />
-                       No difficult twisted solutions. It will be easy and simple to understand. <br className='d-none d-xl-block' />
+              excerpt="No difficult twisted solutions. It will be easy and simple to understand. <br className='d-none d-xl-block' />
                        We want you to make progress and automate more, where it is possible."
             />
             <Button

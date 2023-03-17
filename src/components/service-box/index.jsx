@@ -11,13 +11,7 @@ const ServiceBox = ({ data }) => {
         alt=" service logo"
       />
       <div className="service-media-body">
-        <h4 className="title">
-          <Link
-            to={process.env.PUBLIC_URL + `/service-details/${slugify(data.id)}`}
-          >
-            {data.title}
-          </Link>
-        </h4>
+        <h4 className="title">{data.title}</h4>
         <p>{data.excerpt}</p>
       </div>
     </div>
