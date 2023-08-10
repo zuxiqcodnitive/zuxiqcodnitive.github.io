@@ -24,7 +24,7 @@ const AboutPage = () => {
                      We invite you to give us processes that can be automated, so that you can focus on what you are best at.<br />
                      What we are best at is design, reporting, coding. We are specific and dedicated.<br />
                      Book us now for a quick run through our services and how it could make a difference to you."
-            image="./images/banner/1.png"
+            image="./images/banner/1.webp"
           />
           {/* <AboutContainer /> */}
           <TeamContainer classOption="section-py" />

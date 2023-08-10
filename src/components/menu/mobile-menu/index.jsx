@@ -37,7 +37,7 @@ const MobileMenu = ({ show, onClose }) => {
           <div className="offcanvas-header">
             <Logo
               classOption="offcanvas-logo d-inline-block"
-              image={`${process.env.PUBLIC_URL}/images/logo/zuxiq-logo.png`}
+              image={`${process.env.PUBLIC_URL}/images/logo/zuxiq-logo.webp`}
             />
             <button type="button" className="btn-close" onClick={onClose} />
           </div>

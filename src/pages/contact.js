@@ -17,7 +17,7 @@ const ContactPage = () => {
           <PageBanner
             title="Contact us"
             excerpt=""
-            image="./images/contact/1.png"
+            image="./images/contact/1.webp"
           />
           <ContactContainer />
           <Footer />

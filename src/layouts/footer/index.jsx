@@ -17,7 +17,7 @@ const Footer = () => {
               <div className="footer-widget">
                 <Logo
                   classOption="footer-logo mb-9 "
-                  image={`${process.env.PUBLIC_URL}/images/logo/zuxiq-logo.png`}
+                  image={`${process.env.PUBLIC_URL}/images/logo/zuxiq-logo.webp`}
                 />
                 <p />
               </div>
