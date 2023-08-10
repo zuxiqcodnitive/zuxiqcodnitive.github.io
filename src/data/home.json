@@ -42,7 +42,7 @@
         "className": "grid-item card-mt-75 mb-7",
         "icon": "./images/feature/logo/2.png",
         "title": "Creative Idea",
-        "excerpt": "You might think this is difficult. We will show you simple ways to help you automate and run faster.\nWe will you show you insightful reports to digest aside your morning coffee."
+        "excerpt": "You might think this is difficult. We will show you simple ways to help you automate and run faster.\nWe will show you you insightful reports to digest aside your morning coffee."
       },
       {
         "id": 1,
@@ -115,6 +115,12 @@
         "thumb": "./images/team/7.png",
         "name": "Claudiu P",
         "designation": "Head of Coding"
+      },
+      {
+        "id": 3,
+        "thumb": "./images/team/2.png",
+        "name": "Alexandra C",
+        "designation": "Finance and QA"
       }
     ]
   }
