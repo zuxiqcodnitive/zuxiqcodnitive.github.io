@@ -46,6 +46,7 @@ const Header = () => {
                 className="toggle"
                 onClick={onCanvasHandler}
                 style={{ outline: "none" }}
+                aria-label="Toggle Menu"
               >
                 <span className="icon-top"></span>
                 <span className="icon-middle"></span>
