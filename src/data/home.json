@@ -112,15 +112,15 @@
       },
       {
         "id": 2,
-        "thumb": "./images/team/7.png",
-        "name": "Claudiu P",
-        "designation": "Head of Coding"
+        "thumb": "./images/team/2.png",
+        "name": "Alexandra C",
+        "designation": "Finance and Head of QA"
       },
       {
         "id": 3,
-        "thumb": "./images/team/2.png",
-        "name": "Alexandra C",
-        "designation": "Finance and QA"
+        "thumb": "./images/team/7.png",
+        "name": "Claudiu P",
+        "designation": "Head of Coding"
       }
     ]
   }
