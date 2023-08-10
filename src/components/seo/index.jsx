@@ -7,10 +7,9 @@ const SEO = ({ title }) => {
     <Helmet>
       <meta charSet="utf-8" />
       <title>{title}</title>
-      <meta name="robots" content="noindex, follow" />
       <meta
         name="description"
-        content="Hope – Health &amp; Medical React JS Template"
+        content="ZQ Business"
       />
       <meta
         name="viewport"
