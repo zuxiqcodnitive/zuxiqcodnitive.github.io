@@ -7,6 +7,7 @@ import ServicePage from "./pages/service"
 import ServiceDetails from "./templates/service-details"
 import TeamPage from "./pages/team"
 import ContactPage from "./pages/contact"
+import NotFoundPage from "./pages/not-found"
 import ZuxiqCodnitiveIcon from "./assets/favicon.ico"
 import "swiper/components/navigation/navigation.scss"
 import "swiper/swiper.scss"
@@ -163,6 +164,8 @@ const App = () => {
             path={`${process.env.PUBLIC_URL + "/category/:slug"}`}
             component={BlogCategory}
           />*/}
+            {/* Route for the 404 page - should be the last route */}
+            <Route component={NotFoundPage} />
           </Switch>
         </NavScrollTop>
       </Router>
